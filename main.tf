@@ -10,3 +10,8 @@ resource "azurerm_resource_group" "myname" {
   location = "eastus"
 }
 
+resource "azurerm_resource_group" "myname1" {
+  name = "tfcloudrg"
+  location = "eastus"
+}
+
