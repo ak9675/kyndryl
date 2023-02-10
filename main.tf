@@ -6,7 +6,7 @@ provider "azurerm" {
 
 
 resource "azurerm_resource_group" "myname" {
-  name = "gitrg"
+  name = var.rgname
   location = "eastus"
 }
 
